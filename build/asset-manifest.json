@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c96a3b3e.css",
+    "main.js": "/static/js/main.b9107fb0.js",
+    "static/media/batmobile.png": "/static/media/batmobile.66932d233e706c4fb8cd.png",
+    "static/media/rancor.png": "/static/media/rancor.c85f7f945591742c95f3.png",
+    "static/media/wb_banner.png": "/static/media/wb_banner.fd1aa95040dc835ab1f1.png",
+    "static/media/ig-88.png": "/static/media/ig-88.c7daf7a7ebc1ace8a8f6.png",
+    "static/media/barc speeder.png": "/static/media/barc speeder.b4ab031beec169621141.png",
+    "static/media/swampspeeder.png": "/static/media/swampspeeder.1012cdc90424e391f11d.png",
+    "static/media/at-rt.png": "/static/media/at-rt.e1fd0ff8f4ae3ca704e4.png",
+    "static/media/crab droid.png": "/static/media/crab droid.e13989dd7653f4004aa8.png",
+    "static/media/rancor_top.png": "/static/media/rancor_top.786e96ad2f580bf40003.png",
+    "static/media/atrt.png": "/static/media/atrt.3de31e252825efd88df7.png",
+    "static/media/swampspeeder_front.png": "/static/media/swampspeeder_front.628f1283d6550cc1b73f.png",
+    "static/media/wb_logo.png": "/static/media/wb_logo.c54dae1c97530abc1928.png",
+    "static/media/barc_speeder.png": "/static/media/barc_speeder.768d3810c9315d649ee4.png",
+    "static/media/rancor_side.png": "/static/media/rancor_side.57e076e2d23e47b91220.png",
+    "static/media/swampspeeder_back.png": "/static/media/swampspeeder_back.e9d172019fd04693fc51.png",
+    "static/media/crab droid_side.png": "/static/media/crab droid_side.0370eb8238f113a7e423.png",
+    "static/media/batmobile_back.png": "/static/media/batmobile_back.6bc1d965ed22504b5dc2.png",
+    "static/media/atrt_back.png": "/static/media/atrt_back.861fbeb24f81b6f80a5e.png",
+    "static/media/batmobile_side.png": "/static/media/batmobile_side.92cca66b2c706c45ab9f.png",
+    "static/media/crab droid_back.png": "/static/media/crab droid_back.0a88b1b94ae819ae8e1d.png",
+    "static/media/barc_speeder_back.png": "/static/media/barc_speeder_back.cf1279c0fcebd9840341.png",
+    "static/media/atrt_side.png": "/static/media/atrt_side.39b61dd51b43d9fe5dd3.png",
+    "static/media/ag_front.png": "/static/media/ag_front.4910665230907a542534.png",
+    "static/media/ab_back.png": "/static/media/ab_back.8dcf3d04bebaad879552.png",
+    "static/media/barc_speeder_side.png": "/static/media/barc_speeder_side.492a362ae4ab988062ca.png",
+    "static/media/ab_front.png": "/static/media/ab_front.778b3fc72fb7233139f4.png",
+    "static/media/ag_back.png": "/static/media/ag_back.04ea3b3b2a5ba0d264fc.png",
+    "index.html": "/index.html",
+    "main.c96a3b3e.css.map": "/static/css/main.c96a3b3e.css.map",
+    "main.b9107fb0.js.map": "/static/js/main.b9107fb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c96a3b3e.css",
+    "static/js/main.b9107fb0.js"
+  ]
+}
