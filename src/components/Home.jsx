@@ -21,28 +21,28 @@ const Home = () => {
     <h1 class="text-3xl font-bold uppercase my-4">Featured:</h1>
     <div id="featured" class="flex justify-center gap-4 flex-wrap">
         <div class="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="barc-speeder">
+            <a href="products/barc-speeder">
                 <img class="p-2 w-96 mx-auto rounded-3xl" src={Barcspeeder} alt="at-rt" />
                 <p class="mb-4 font-bold text-2xl text-center">BARC Speeder</p>
                 <p class="text-gray-700 font-bold">$20</p>
             </a>
         </div>
         <div class="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="at-rt-walker">
+            <a href="products/at-rt">
                 <img class="p-2 w-96 mx-auto rounded-3xl" src={Atrt} alt="at-rt" />
                 <p class="mb-4 font-bold text-2xl text-center">AT-RT Walker</p>
                 <p class="text-gray-700 font-bold">$15</p>
             </a>
         </div>
         <div class="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="crabdroid">
+            <a href="products/crab-droid">
                 <img class="p-2 w-96 mx-auto rounded-3xl" src={Crabdroid} alt="at-rt" />
                 <p class="mb-4 font-bold text-2xl text-center">Crab Droid</p>
                 <p class="text-gray-700 font-bold">$10</p>
             </a>
         </div>
         <div class="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="rancor">
+            <a href="products/rancor">
                 <img class="p-2 w-96 mx-auto rounded-3xl" src={Rancor} alt="at-rt" />
                 <p class="mb-4 font-bold text-2xl text-center">Rancor (Minifig Scale)</p>
                 <p class="text-gray-700 font-bold">$40</p>

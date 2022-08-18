@@ -27,7 +27,7 @@ const Producst = () => {
         </div>
         <div class="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
             <a href="/products/barc-speeder">
-                <img class="p-2 w-96 mx-auto rounded-3xl" src={Barcspeeder} />
+                <img class="p-2 w-96 mx-auto rounded-3xl" src={Barcspeeder} alt='' />
                 <p class="mb-4 font-bold text-2xl text-center">BARC Speeder</p>
                 <p class="text-gray-700 font-bold">$20</p>
             </a>
@@ -54,21 +54,21 @@ const Producst = () => {
             </a>
         </div>
         <div class="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="swampspeeder.html">
+            <a href="/products/swamp-speeder">
                 <img class="p-2 w-96 mx-auto rounded-3xl" src={Swampspeeder} alt="swamp speeder" />
                 <p class="mb-4 font-bold text-2xl text-center">Republic Swamp Speeder</p>
                 <p class="text-gray-700 font-bold">$35</p>
             </a>
         </div>
         <div class="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="rancor.html">
+            <a href="/products/rancor">
                 <img class="p-2 w-96 mx-auto rounded-3xl" src={Rancor} alt="rancor" />
                 <p class="mb-4 font-bold text-2xl text-center">Rancor (Minifig Scale)</p>
                 <p class="text-gray-700 font-bold">$40</p>
             </a>
         </div>
         <div class="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="batmobile.html">
+            <a href="/products/batmobile">
                 <img class="p-2 w-96 mx-auto rounded-3xl" src={Batmobile} alt="bat mobile" />
                 <p class="mb-4 font-bold text-2xl text-center">Batmobile</p>
                 <p class="text-gray-700 font-bold">$20</p>

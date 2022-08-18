@@ -10,6 +10,9 @@ import Ag from "./components/products/A_g";
 import Atrt from "./components/products/At_rt";
 import Barc from "./components/products/Barc";
 import Crab from "./components/products/Crab";
+import Batmobile from "./components/products/Batmobile";
+import S_s from "./components/products/S_s";
+import Rancy from "./components/products/Rancy";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
         <Route path="/products/at-rt" element={<Atrt />} />
         <Route path="/products/barc-speeder" element={<Barc />} />
         <Route path="/products/crab-droid" element={<Crab />} />
+        <Route path="/products/batmobile" element={<Batmobile />} />
+        <Route path="/products/swamp-speeder" element={<S_s />} />
+        <Route path="/products/rancor" element={<Rancy />} />
       </Routes>
       <Footer />
     </div>
