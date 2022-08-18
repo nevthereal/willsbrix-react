@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
+import Products from "./components/Products";
+import Info from "./components/Info";
+import Ab from "./components/products/A_b";
+import Ag from "./components/products/A_g";
+import Atrt from "./components/products/At_rt";
+import Barc from "./components/products/Barc";
+import Crab from "./components/products/Crab";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="scroll-smooth text-center overflow-x-hidden">
+      <Navbar />
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/info" element={<Info />} />
+        <Route path="/products/assassin-black" element={<Ab />} />
+        <Route path="/products/assassin-gray" element={<Ag />} />
+        <Route path="/products/at-rt" element={<Atrt />} />
+        <Route path="/products/barc-speeder" element={<Barc />} />
+        <Route path="/products/crab-droid" element={<Crab />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
