@@ -11,12 +11,12 @@ import Atrt from "./components/products/At_rt";
 import Barc from "./components/products/Barc";
 import Crab from "./components/products/Crab";
 import Batmobile from "./components/products/Batmobile";
-import S_s from "./components/products/S_s";
+import Ss from "./components/products/SwampSpeeder";
 import Rancy from "./components/products/Rancy";
 
 function App() {
   return (
-    <div className="scroll-smooth text-center overflow-x-hidden">
+    <div className="text-center">
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
@@ -28,7 +28,7 @@ function App() {
         <Route path="/products/barc-speeder" element={<Barc />} />
         <Route path="/products/crab-droid" element={<Crab />} />
         <Route path="/products/batmobile" element={<Batmobile />} />
-        <Route path="/products/swamp-speeder" element={<S_s />} />
+        <Route path="/products/swamp-speeder" element={<Ss />} />
         <Route path="/products/rancor" element={<Rancy />} />
       </Routes>
       <Footer />
