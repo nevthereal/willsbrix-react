@@ -10,7 +10,7 @@ const A_g = () => {
         <img src={Ag} alt="gray assassin droid" className="w-80 md:w-[720px] my-4 mx-auto border border-gray-300 rounded-xl" />
         <div className="my-auto">
         <h1 className="font-bold text-2xl md:text-4xl m-4">Gray Assassin Droid</h1>
-        <p className="text-xs text-gray-600">Before you place your order, check the <a className="font-semibold" href="info.html">Info</a> Page</p>
+        <p className="text-xs text-gray-600">Before you place your order, check the <a className="font-semibold" href="/info">Info</a> Page</p>
         <div  className="m-4 flex justify-center space-x-10">
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HC9LK2N8FJ5AY" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">$5 <i className="fa-solid fa-cart-plus"></i></p></a>
         </div>

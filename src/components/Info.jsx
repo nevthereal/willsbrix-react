@@ -19,17 +19,17 @@ const Info = () => {
     <br />
     <div className="m-4">
         <h1 className="text-2xl md:text-4xl font-bold">Email</h1>
-        <p className="md:text-xl">Contact us via Email: <a className="font-bold text-cyan-500" href="mailto:support@willsbr /ix.com">contact@willsbr /ix.com</a></p>
+        <p className="md:text-xl">Contact us via Email: <a className="font-bold" href="mailto:support@willsbrix.com">support@willsbrix.com</a></p>
     </div>
     <br />
     <div className="m-4">
         <h1 className="text-2xl md:text-4xl font-bold">Twitter</h1>
-        <p className="md:text-xl">Send us a DM on Twitter: <a className="font-bold text-cyan-500" href="https://twitter.com/willsbr /ix">@willsbr /ix</a></p>
+        <p className="md:text-xl">Send us a DM on Twitter: <a className="font-bold" href="https://twitter.com/willsbrix">@willsbrix</a></p>
     </div>
     <br />
     <div className="m-4">
         <h1 className="text-2xl md:text-4xl font-bold">Instagram</h1>
-        <p className="md:text-xl">Follow us on Instagran: <a className="font-bold text-cyan-500" href="https://instagram.com/willsbr /ixlego_official">@willsbr /ixlego_official</a></p>
+        <p className="md:text-xl">Follow us on Instagran: <a className="font-bold" href="https://instagram.com/willsbrixlego_official">@willsbrixlego_official</a></p>
     </div>
     </div>
   )
