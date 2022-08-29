@@ -3,6 +3,7 @@ import Barcspeeder from '../assets/barc_speeder.png'
 import Atrt from '../assets/atrt.png'
 import Crabdroid from '../assets/crab droid.png'
 import Banner from '../assets/wb_banner.png'
+import { InstagramEmbed } from 'react-social-media-embed';
 
 
 
@@ -41,6 +42,11 @@ const Home = () => {
                     <p className="mb-4 font-bold text-2xl text-center">Crab Droid</p>
                     <p className="text-gray-700 font-bold">$10</p>
                 </a>
+            </div>
+        </div>
+        <div className='py-4'>
+            <div className='flex justify-center gap-4'>
+                <InstagramEmbed url="https://www.instagram.com/p/Cg_aQxoA-g_/" width={328} className="shadow-xl shadow-gray-400" />
             </div>
         </div>
     </div>
