@@ -11,8 +11,8 @@ const Info = () => {
     <div className="m-4">
         <h1 className="text-2xl md:text-4xl font-bold mb-4">How it works:</h1>
         <p className="md:text-xl">
-            We accept Paypal as well as common Credit Cards (Mastercard, Visa etc.) <br />
-            Select the Products you want and add them to your cart. After your order was placed, you will get redirected to a Google Drive Folder with your Instructions. <br />
+            We accept common Credit Cards (Mastercard, Visa etc.) as well as Apple Pay.<br />
+            Select the Products you want and add them to your cart. <br />
             After your purchase, we will send you the Instructions and Informations about your Order (number of packages for example) via Email (the Email linked to your Paypal Account). 
         </p>
     </div>
