@@ -5,7 +5,6 @@ import Atrt from '../assets/atrt.png'
 import Barcspeeder from '../assets/barc_speeder.png'
 import Crabdroid from '../assets/crab droid.png'
 import Rancor from '../assets/rancor.png'
-import Batmobile from '../assets/batmobile.png'
 import Swampspeeder from '../assets/swampspeeder_front.png'
 import Banner from '../assets/wb_banner.png'
 
