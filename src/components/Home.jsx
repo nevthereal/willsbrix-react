@@ -46,7 +46,7 @@ const Home = () => {
         </div>
         <div className='py-4'>
             <div className='flex justify-center gap-4'>
-                <InstagramEmbed url="https://www.instagram.com/p/Cg_aQxoA-g_/" width={328} className="shadow-xl shadow-gray-400" />
+                <InstagramEmbed url="https://www.instagram.com/p/Cg_aQxoA-g_/" className="w-9/12 md:w-auto shadow-xl shadow-gray-400" />
             </div>
         </div>
     </div>
