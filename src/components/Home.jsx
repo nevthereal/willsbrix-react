@@ -5,7 +5,6 @@ import Crabdroid from '../assets/crab droid.png'
 import Banner from '../assets/wb_banner.png'
 
 
-
 const Home = () => {
   return (
     <div>
@@ -43,6 +42,9 @@ const Home = () => {
                 </a>
             </div>
         </div>
+    </div>
+    <div className='py-8'>
+    <iframe className='mx-auto w-9/12 rounded-xl shadow-2xl shadow-black/60 md:w-[600px] md:h-[337.50px]' src="https://www.youtube.com/embed/IYwqq5MYuGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
   )
