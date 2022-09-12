@@ -1,6 +1,5 @@
 import React from 'react'
 import Cd from '../../assets/crab droid.png'
-import Cd_side from '../../assets/crab droid_side.png'
 import Cd_back from '../../assets/crab droid_back.png'
 import Cd_of from '../../assets/original/crab droid.png'
 
@@ -27,7 +26,6 @@ const Crab = () => {
         <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Gallery:</h2>
         <div className="flex flex-wrap justify-center gap-2 m-4"> 
             <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Cd} alt="" />
-            <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Cd_side} alt="" />
             <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Cd_back} alt="" />
             <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Cd_of} alt="" />
         </div>

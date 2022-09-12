@@ -1,6 +1,5 @@
 import React from 'react'
 import Atrt from '../../assets/atrt.png'
-import Atrt_side from '../../assets/atrt_side.png'
 import Atrt_back from '../../assets/atrt_back.png'
 import Atrt_or from '../../assets/original/at-rt.png'
 
@@ -28,7 +27,6 @@ const At_rt = () => {
         <div className="flex flex-wrap justify-center gap-2 m-4"> 
             <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Atrt} alt="" />
             <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Atrt_back} alt="" />
-            <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Atrt_side} alt="" />
             <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Atrt_or} alt="" />
         </div>
     </div>

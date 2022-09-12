@@ -2,7 +2,6 @@ import React from 'react'
 import Rancor from '../../assets/rancor.png'
 import Rancor_or from '../../assets/original/rancor.png'
 import Rancor_top from '../../assets/rancor_top.png'
-import Rancor_side from '../../assets/rancor_side.png'
 
 const Rancy = () => {
   return (
@@ -27,7 +26,6 @@ const Rancy = () => {
         <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Gallery:</h2>
         <div className="flex flex-wrap justify-center gap-2 m-4"> 
             <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Rancor} alt="" />
-            <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Rancor_side} alt="" />
             <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Rancor_top} alt="" />
             <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Rancor_or} alt="" />
         </div>

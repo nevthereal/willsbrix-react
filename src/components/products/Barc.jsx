@@ -1,6 +1,5 @@
 import React from 'react'
 import Bs from '../../assets/barc_speeder.png'
-import Bs_side from '../../assets/barc_speeder_side.png'
 import Bs_back from '../../assets/barc_speeder_back.png'
 import Bs_or from '../../assets/original/barc speeder.png'
 
@@ -28,7 +27,6 @@ const Barc = () => {
         <div className="flex flex-wrap justify-center gap-2 m-4"> 
             <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Bs} alt="" />
             <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Bs_back} alt="" />
-            <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Bs_side} alt="" />
             <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Bs_or} alt="" />
         </div>
     </div>
