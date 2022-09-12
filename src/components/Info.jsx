@@ -18,6 +18,17 @@ const Info = () => {
     </div>
     <br />
     <div className="m-4">
+        <h1 className="text-2xl md:text-4xl font-bold mb-4">Price Guide:</h1>
+        <p className="md:text-xl">
+            As you can see, all of our prices are in CHF (Swiss Franks), becuase we also order parts in Swiss Franks <br />
+            on Bricklink and we don't want to deal with currency changes. <br />
+            In terms of shipping, all of our products come with CHF 7.50 per product <span className='underline'>type</span>, which means, <br />
+            that if you buy for example 5 AT-RTs, you need to pay CHF 7.50 shipping, but if you add 1 BARC Speeder, you need to pay CHF 15 shipping.<br />
+            The assassin droids as well as the Crab droid have a shipping of only CHF 5.
+        </p>
+    </div>
+    <br />
+    <div className="m-4">
         <h1 className="text-2xl md:text-4xl font-bold">Email</h1>
         <p className="md:text-xl">Contact us via Email: <a className="font-bold" href="mailto:support@willsbrix.com">support@willsbrix.com</a></p>
     </div>
