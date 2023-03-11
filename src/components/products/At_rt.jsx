@@ -10,12 +10,11 @@ const At_rt = () => {
         <img src={Atrt} alt="at rt walker" className="w-80 md:w-[720px] my-4 mx-auto border border-gray-300 rounded-xl" />
         <div className="my-auto">
         <h1 className="font-bold text-2xl md:text-4xl m-4">AT-RT Walker</h1>
-        <p className="text-xs text-gray-600">Before you place your order, check the <a className="font-semibold" href="/info">Info</a> Page</p>
         <div  className="m-4 flex justify-center space-x-10">
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8BEMJHHRBVJ7G" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">CHF 15 <i className="fa-solid fa-cart-plus"></i></p></a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8BEMJHHRBVJ7G" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">CHF 15 - Add to cart</p></a>
         </div>
         <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Short description:</h2>
-        <p className="text-sm md:text-lg mb-4">One of our first MOC's designed by William. <br /> This All-Terrain Recon Transporter is ideal for your MOC. Since it is not too big, you can buy it multiple times and display and put it in your base or battle field!</p>
+        <p className="text-sm md:text-lg mb-4">One of our first MOC's designed by William. <br /> This All-Terrain Recon Transporter is ideal for every MOC. Since it is not too big, you can build it multiple times and display or put it in your base or battle field! It is capable of holding a trooper and 2 weapons!</p>
         <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Details:</h2>
         <ul className="text-sm md:text-lg list-disc mx-auto list-inside">
             <li>71 Parts</li>

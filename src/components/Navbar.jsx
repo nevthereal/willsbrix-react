@@ -10,10 +10,12 @@ const Navbar = () => {
             <p className="font-bold hover:scale-105 duration-200"><a href="/products">Products</a></p>
             <p className="font-bold hover:scale-105 duration-200"><a href="/info">Info</a></p>
         </div>
-        <a className="my-auto hover:scale-105 duration-200 text-2xl md:text-3xl" href="https://www.paypal.com/cgi-bin/webscr?cmd=_cart&business=G8L6ZMR2Q8PGY&display=1"><i className="fa-solid fa-cart-shopping"></i></a>
+        <div className="flex gap-4 my-auto text-2xl md:text-3xl">
+        <a className='hover:scale-105 duration-200' href="https://www.paypal.com/cgi-bin/webscr?cmd=_cart&business=G8L6ZMR2Q8PGY&display=1"><i className="fa-solid fa-cart-shopping"></i></a>
+        </div>
         </nav>
     </div>
   )
 }
 
-export default Navbar
+export default Navbar 

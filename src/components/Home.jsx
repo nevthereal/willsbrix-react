@@ -10,21 +10,20 @@ const Home = () => {
     <div>
         <div style={{backgroundImage: `url(${Banner})`}} id="header" className="text-center bg-no-repeat bg-center bg-cover mt-4 transition-all w-full h-[92vh] bg-white">
         <div className="h-full w-full bg-black/25"></div>
-        <p className="absolute top-[40vh] text-4xl md:text-6xl font-black uppercase tracking-wide bg-cover w-full">
+        <p className="absolute top-[40vh] text-4xl md:text-6xl font-black text-white uppercase tracking-wide bg-cover w-full">
         WILL'S Brix <br />
         <span className="text-base md:text-lg">LEGO® MOC's from Switzerland!</span><br />
         <button className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><a href="#featured"><p className='font-bold text-xl sm:text-2xl'>Explore!</p></a></button>
         </p>
     </div>
     <div id="featured">
-        <p className="bg-orange-200 border rounded-2xl border-orange-300 w-[90%] lg:w-96 mx-auto my-4 p-4"><span className="font-semibold">Note:</span> It is possible, that your bricks will be sent in different packages, because we order them all from <a className="text-gray-800 font-semibold" href="https://bricklink.com">Bricklink</a> directly to you!</p>
         <h1 className="text-3xl font-bold uppercase my-4">Featured:</h1>
         <div className="flex justify-center gap-4 flex-wrap">
             <div className="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
                 <a href="products/barc-speeder">
                     <img className="p-2 w-96 mx-auto rounded-3xl" src={Barcspeeder} alt="at-rt" />
                     <p className="mb-4 font-bold text-2xl text-center">BARC Speeder</p>
-                    <p className="text-gray-700 font-bold">20 CHF</p>
+                    <p className="text-gray-700 font-bold">15 CHF</p>
                 </a>
             </div>
             <div className="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
