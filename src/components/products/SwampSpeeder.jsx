@@ -9,8 +9,7 @@ const S_s = () => {
         <div className="md:grid m-4 md:grid-cols-2">
         <img src={Ss} alt="at rt walker" className="w-80 md:w-[720px] my-4 mx-auto border border-gray-300 rounded-xl" />
         <div className="my-auto">
-        <h1 className="font-bold text-2xl md:text-4xl m-4">Republic Swamp Speeder</h1>
-        <p className="text-xs text-gray-600">Before you place your order, check the <a className="font-semibold" href="/info">Info</a> Page</p>
+        <h1 className="font-bold text-2xl md:text-4xl m-4">Republic Swamp Speeder - Instructions only</h1>
         <div  className="m-4 flex justify-center space-x-10">
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7K7CSGSYGRZB6" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">CHF 20 - Add to cart</p></a>
         </div>
@@ -19,6 +18,7 @@ const S_s = () => {
         <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Details:</h2>
         <ul className="text-sm md:text-lg list-disc mx-auto list-inside">
             <li>104 Parts</li>
+            <li>Bricklink price: ~40 CHF</li>
         </ul>
         </div>
     </div>

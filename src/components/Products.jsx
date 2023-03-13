@@ -6,6 +6,7 @@ import Barcspeeder from '../assets/barc_speeder.png'
 import Crabdroid from '../assets/crab droid.png'
 import Rancor from '../assets/rancor.png'
 import Swampspeeder from '../assets/swampspeeder_front.png'
+import Droideka from '../assets/droideka.png'
 
 const Producst = () => {
   return (
@@ -31,6 +32,13 @@ const Producst = () => {
                 <img className="p-2 w-96 mx-auto rounded-3xl" src={Crabdroid} alt="at-rt" />
                 <p className="mb-4 font-bold text-2xl text-center">Crab Droid</p>
                 <p className="text-gray-700 font-bold">10 CHF</p>
+            </a>
+        </div>
+        <div className="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
+            <a href="/products/droideka">
+                <img className="p-2 w-96 mx-auto rounded-3xl" src={Droideka} alt="at-rt" />
+                <p className="mb-4 font-bold text-2xl text-center">Droideka</p>
+                <p className="text-gray-700 font-bold">5 CHF</p>
             </a>
         </div>
         <div className="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">

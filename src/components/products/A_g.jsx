@@ -9,7 +9,7 @@ const A_g = () => {
         <div className="md:grid m-4 md:grid-cols-2">
         <img src={Ag} alt="gray assassin droid" className="w-80 md:w-[720px] my-4 mx-auto border border-gray-300 rounded-xl" />
         <div className="my-auto">
-        <h1 className="font-bold text-2xl md:text-4xl m-4">Gray Assassin Droid</h1>
+        <h1 className="font-bold text-2xl md:text-4xl m-4">Gray Assassin Droid - Instructions only</h1>
         <div  className="m-4 flex justify-center space-x-10">
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HC9LK2N8FJ5AY" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">CHF 5 - Add to cart</p></a>
         </div>
@@ -19,6 +19,7 @@ const A_g = () => {
         <ul className="text-sm md:text-lg list-disc mx-auto list-inside">
             <li>25 Parts</li>
             <li>2 Weapons</li>
+            <li>Bricklink price: ~2.50 CHF</li>
         </ul>
         </div>
     </div>

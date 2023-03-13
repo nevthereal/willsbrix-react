@@ -13,6 +13,7 @@ import Barc from "./components/products/Barc";
 import Crab from "./components/products/Crab";
 import Ss from "./components/products/SwampSpeeder";
 import Rancy from "./components/products/Rancy";
+import Droideka from "./components/products/Droideka";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/products/assassin-gray" element={<Ag />} />
         <Route path="/products/at-rt" element={<Atrt />} />
         <Route path="/products/barc-speeder" element={<Barc />} />
+        <Route path="/products/droideka" element={<Droideka />} />
         <Route path="/products/crab-droid" element={<Crab />} />
         <Route path="/products/swamp-speeder" element={<Ss />} />
         <Route path="/products/rancor" element={<Rancy />} />

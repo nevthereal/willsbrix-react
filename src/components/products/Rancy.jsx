@@ -18,6 +18,7 @@ const Rancy = () => {
         <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Details:</h2>
         <ul className="text-sm md:text-lg list-disc mx-auto list-inside">
             <li>392 Parts</li>
+            <li>Bricklink Price: ~45 CHF</li>
         </ul>
         </div>
     </div>

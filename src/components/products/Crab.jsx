@@ -9,7 +9,7 @@ const Crab = () => {
         <div className="md:grid m-4 md:grid-cols-2">
         <img src={Cd} alt="Crab droid" className="w-80 md:w-[720px] my-4 mx-auto border border-gray-300 rounded-xl" />
         <div className="my-auto">
-        <h1 className="font-bold text-2xl md:text-4xl m-4">Crab Droid</h1>
+        <h1 className="font-bold text-2xl md:text-4xl m-4">Crab Droid - Instructions only</h1>
         <div className="m-4 flex justify-center space-x-10">
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GTA2WX6LF6SGQ" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">CHF 10 - Add to cart</p></a>
         </div>
@@ -18,6 +18,7 @@ const Crab = () => {
         <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Details:</h2>
         <ul className="text-sm md:text-lg list-disc mx-auto list-inside">
             <li>78 Parts</li>
+            <li>Bricklink Price: ~8 CHF</li>
         </ul>
         </div>
     </div>
