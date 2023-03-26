@@ -11,7 +11,7 @@ const S_s = () => {
         <div className="my-auto">
         <h1 className="font-bold text-2xl md:text-4xl m-4">Republic Swamp Speeder - Instructions only</h1>
         <div  className="m-4 flex justify-center space-x-10">
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7K7CSGSYGRZB6" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">CHF 20 - Add to cart</p></a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7K7CSGSYGRZB6" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">CHF 10 - Add to cart</p></a>
         </div>
         <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Short description:</h2>
         <p className="text-sm md:text-lg mb-4">One of our first MOC's designed by Neville. <br /> The Republic Swamp Speeder or Infantry Support Platform (short ISP) grants protection for your troops on Felucia or other planets. It is high-detailed.</p>

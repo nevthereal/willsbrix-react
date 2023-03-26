@@ -11,7 +11,7 @@ const Crab = () => {
         <div className="my-auto">
         <h1 className="font-bold text-2xl md:text-4xl m-4">Crab Droid - Instructions only</h1>
         <div className="m-4 flex justify-center space-x-10">
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GTA2WX6LF6SGQ" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">CHF 10 - Add to cart</p></a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GTA2WX6LF6SGQ" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">CHF 3.50 - Add to cart</p></a>
         </div>
         <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Short description:</h2>
         <p className="text-sm md:text-lg mb-4">Designed by William. <br /> The Crab Droid is an important part of the separatist droid army and was designed by the Techno-Union. It offers many details and is minifigure-scaled.</p>

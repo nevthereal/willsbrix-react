@@ -11,7 +11,7 @@ const Barc = () => {
         <div className="my-auto">
         <h1 className="font-bold text-2xl md:text-4xl m-4">BARC Speeder - Instructions only</h1>
         <div  className="m-4 flex justify-center space-x-10">
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J4PKAF4NKQB9E" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">CHF 15 - Add to cart</p></a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J4PKAF4NKQB9E" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">CHF 7.50 - Add to cart</p></a>
         </div>
         <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Short description:</h2>
         <p className="text-sm md:text-lg mb-4">One of our first MOC's designed by William. <br /> The BARC (Biker Advanced Recon Commando) Speeder are light and optimal to use them in quantity for your Mocs!</p>
