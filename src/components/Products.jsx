@@ -7,71 +7,24 @@ import Crabdroid from '../assets/crab droid.png'
 import Rancor from '../assets/rancor.png'
 import Swampspeeder from '../assets/swampspeeder_front.png'
 import Droideka from '../assets/droideka.png'
+import Panel from './Panel'
 
-const Producst = () => {
+const Products = () => {
   return (
     <div>
         <h1 className='text-4xl md:text-6xl font-black uppercase my-16'>Products</h1>
     <div id="products" className="flex justify-center gap-4 flex-wrap my-4 2xl:max-w-[80%] mx-auto">
-        <div className="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="/products/at-rt">
-                <img className="p-2 w-96 mx-auto rounded-3xl" src={Atrt} alt="at-rt walker" />
-                <p className="mb-4 font-bold text-2xl text-center">AT-RT Walker</p>
-                <p className="text-gray-700 font-bold">5 CHF</p>
-            </a>
-        </div>
-        <div className="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="/products/barc-speeder">
-                <img className="p-2 w-96 mx-auto rounded-3xl" src={Barcspeeder} alt='' />
-                <p className="mb-4 font-bold text-2xl text-center">BARC Speeder</p>
-                <p className="text-gray-700 font-bold">7.50 CHF</p>
-            </a>
-        </div>
-        <div className="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="/products/crab-droid">
-                <img className="p-2 w-96 mx-auto rounded-3xl" src={Crabdroid} alt="at-rt" />
-                <p className="mb-4 font-bold text-2xl text-center">Crab Droid</p>
-                <p className="text-gray-700 font-bold">3.50 CHF</p>
-            </a>
-        </div>
-        <div className="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="/products/droideka">
-                <img className="p-2 w-96 mx-auto rounded-3xl" src={Droideka} alt="at-rt" />
-                <p className="mb-4 font-bold text-2xl text-center">Droideka</p>
-                <p className="text-gray-700 font-bold">3 CHF</p>
-            </a>
-        </div>
-        <div className="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="/products/assassin-black">
-                <img className="p-2 w-96 mx-auto rounded-3xl" src={Ab} alt="assassin droid black" />
-                <p className="mb-4 font-bold text-2xl text-center">Black Assassin Droid</p>
-                <p className="text-gray-700 font-bold">2 CHF</p>
-            </a>
-        </div>
-        <div className="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="/products/assassin-gray">
-                <img className="p-2 w-96 mx-auto rounded-3xl" src={Ag} alt="assassin droid gray" />
-                <p className="mb-4 font-bold text-2xl text-center">Gray Assassin Droid</p>
-                <p className="text-gray-700 font-bold">2 CHF</p>
-            </a>
-        </div>
-        <div className="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="/products/swamp-speeder">
-                <img className="p-2 w-96 mx-auto rounded-3xl" src={Swampspeeder} alt="swamp speeder" />
-                <p className="mb-4 font-bold text-2xl text-center">Republic Swamp Speeder</p>
-                <p className="text-gray-700 font-bold">10 CHF</p>
-            </a>
-        </div>
-        <div className="border border-gray-300 bg-gray-200 rounded-2xl w-9/12 md:w-auto p-4 hover:scale-105 duration-200 mx-auto md:mx-0">
-            <a href="/products/rancor">
-                <img className="p-2 w-96 mx-auto rounded-3xl" src={Rancor} alt="rancor" />
-                <p className="mb-4 font-bold text-2xl text-center">Rancor (Minifig Scale)</p>
-                <p className="text-gray-700 font-bold">20 CHF</p>
-            </a>
-        </div>
+        <Panel link={"/products/at-rt"}         image={Atrt}            title={"AT-RT Walker"}              price={"5 CHF"} />
+        <Panel link={"/products/barc-speeder"}  image={Barcspeeder}     title={"BARC Speeder"}              price={"7.50 CHF"} />
+        <Panel link={"/products/crab-droid"}    image={Crabdroid}       title={"Crab Droid"}                price={"5 CHF"} />
+        <Panel link={"/products/rancor"}        image={Rancor}          title={"Rancor - Minifig Scale"}    price={"5 CHF"} />
+        <Panel link={"/products/droideka"}      image={Droideka}        title={"Droideka"}                  price={"5 CHF"} />
+        <Panel link={"/products/assassin-gray"} image={Ag}              title={"Gray Assassin Droid"}       price={"5 CHF"} />
+        <Panel link={"/products/assassin-black"}image={Ab}              title={"Black Asssassin Droid"}     price={"5 CHF"} />
+        <Panel link={"/products/swamp-speeder"} image={Swampspeeder}    title={"Swampspeeder"}              price={"5 CHF"} />
     </div>
     </div>
   )
 }
 
-export default Producst
+export default Products
