@@ -1,37 +1,48 @@
 import React from 'react'
-import Ss from '../../assets/swampspeeder_front.png'
-import Ss_back from '../../assets/swampspeeder_back.png'
-import Ss_or from '../../assets/original/swampspeeder.png'
+import img_main from '../../assets/ab_front.png'
+import img_2 from '../../assets/ab_back.png'
+import img_3 from '../../assets/original/ig-88.png'
 
-const S_s = () => {
+const A_b = () => {
+
+  const title = `Test`
+  const addToCart = `Test`
+  const price = `Test`
+  const description = `Test`
+  const parts = ``
+  const weapons = ``
+  const bl_price = ``
+
+
   return (
     <div>
-        <div className="md:grid m-4 md:grid-cols-2">
-        <img src={Ss} alt="at rt walker" className="w-80 md:w-[720px] my-4 mx-auto border border-gray-300 rounded-xl" />
+        <div className="productContainer">
+        <img src={img_main} alt="" className="productImageMain" />
         <div className="my-auto">
-        <h1 className="font-bold text-2xl md:text-4xl m-4">Republic Swamp Speeder - Instructions only</h1>
-        <div  className="m-4 flex justify-center space-x-10">
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7K7CSGSYGRZB6" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">CHF 10 - Add to cart</p></a>
-        </div>
-        <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Short description:</h2>
-        <p className="text-sm md:text-lg mb-4">One of our first MOC's designed by Neville. <br /> The Republic Swamp Speeder or Infantry Support Platform (short ISP) grants protection for your troops on Felucia or other planets. It is high-detailed.</p>
-        <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Details:</h2>
-        <ul className="text-sm md:text-lg list-disc mx-auto list-inside">
-            <li>104 Parts</li>
-            <li>Bricklink price: ~40 CHF</li>
-        </ul>
+          <h1 className="productTitle">{title} - Instructions only</h1>
+          <div className="productDescContainer">
+          <a href={addToCart} className="productATCOutline"><p className="productATC">{price} - Add to cart</p></a>
+          </div>
+          <h2 className="productH2">Short description:</h2>
+          <p className="text-sm md:text-lg mb-4">{description}</p>
+          <h2 className="productH2">Details:</h2>
+          <ul className="productList">
+              <li>{parts} Parts</li>
+              <li>{weapons} Weapons</li>
+              <li>Bricklink price: {bl_price} CHF</li>
+          </ul>
         </div>
     </div>
     <div id="gallery">
-        <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Gallery:</h2>
-        <div className="flex flex-wrap justify-center gap-2 m-4"> 
-            <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Ss} alt="" />
-            <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Ss_back} alt="" />
-            <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Ss_or} alt="" />
+        <h2 className="productH2">Gallery:</h2>
+        <div className="productGalleryFlex"> 
+            <img className="productGalleryImage" src={img_main} alt="" />
+            <img className="productGalleryImage" src={img_2} alt="" />
+            <img className="productGalleryImage" src={img_3} alt="" />
         </div>
     </div>
     </div>
   )
 }
 
-export default S_s
+export default A_b

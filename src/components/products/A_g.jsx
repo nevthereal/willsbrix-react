@@ -1,38 +1,48 @@
 import React from 'react'
-import Ag from '../../assets/ag_front.png'
-import Ag_back from '../../assets/ag_back.png'
-import Ag_or from '../../assets/original/ig-88.png'
+import img_main from '../../assets/ab_front.png'
+import img_2 from '../../assets/ab_back.png'
+import img_3 from '../../assets/original/ig-88.png'
 
-const A_g = () => {
+const A_b = () => {
+
+  const title = `Test`
+  const addToCart = `Test`
+  const price = `Test`
+  const description = `Test`
+  const parts = ``
+  const weapons = ``
+  const bl_price = ``
+
+
   return (
     <div>
-        <div className="md:grid m-4 md:grid-cols-2">
-        <img src={Ag} alt="gray assassin droid" className="w-80 md:w-[720px] my-4 mx-auto border border-gray-300 rounded-xl" />
+        <div className="productContainer">
+        <img src={img_main} alt="" className="productImageMain" />
         <div className="my-auto">
-        <h1 className="font-bold text-2xl md:text-4xl m-4">Gray Assassin Droid - Instructions only</h1>
-        <div  className="m-4 flex justify-center space-x-10">
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HC9LK2N8FJ5AY" className="border border-gray-400 py-1 px-2 rounded-lg hover:scale-105 duration-200"><p className="font-bold text-xl md:text-3xl my-auto">CHF 2 - Add to cart</p></a>
-        </div>
-        <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Short description:</h2>
-        <p className="text-sm md:text-lg mb-4">The Assassin Droid is ideal for hunting bounty or serving in a gang. It offers many details and is minifigure-scaled.</p>
-        <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Details:</h2>
-        <ul className="text-sm md:text-lg list-disc mx-auto list-inside">
-            <li>25 Parts</li>
-            <li>2 Weapons</li>
-            <li>Bricklink price: ~2.50 CHF</li>
-        </ul>
+          <h1 className="productTitle">{title} - Instructions only</h1>
+          <div className="productDescContainer">
+          <a href={addToCart} className="productATCOutline"><p className="productATC">{price} - Add to cart</p></a>
+          </div>
+          <h2 className="productH2">Short description:</h2>
+          <p className="text-sm md:text-lg mb-4">{description}</p>
+          <h2 className="productH2">Details:</h2>
+          <ul className="productList">
+              <li>{parts} Parts</li>
+              <li>{weapons} Weapons</li>
+              <li>Bricklink price: {bl_price} CHF</li>
+          </ul>
         </div>
     </div>
     <div id="gallery">
-        <h2 className="text-xl md:text-3xl text-gray-500 font-bold">Gallery:</h2>
-        <div className="flex flex-wrap justify-center gap-2 m-4"> 
-            <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Ag} alt="" />
-            <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Ag_back} alt="" />
-            <img className="w-[480px] my-4 border border-gray-300 rounded-xl" src={Ag_or} alt="" />
+        <h2 className="productH2">Gallery:</h2>
+        <div className="productGalleryFlex"> 
+            <img className="productGalleryImage" src={img_main} alt="" />
+            <img className="productGalleryImage" src={img_2} alt="" />
+            <img className="productGalleryImage" src={img_3} alt="" />
         </div>
     </div>
     </div>
   )
 }
 
-export default A_g
+export default A_b

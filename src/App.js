@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Products from "./components/Products";
 import Info from "./components/Info";
+import ProductTemplate from "./components/products/ProductTemplate"
 import Ab from "./components/products/A_b";
 import Ag from "./components/products/A_g";
 import Atrt from "./components/products/At_rt";
@@ -13,7 +14,7 @@ import Barc from "./components/products/Barc";
 import Crab from "./components/products/Crab";
 import Ss from "./components/products/SwampSpeeder";
 import Rancy from "./components/products/Rancy";
-import Droideka from "./components/products/Droideka";
+import Droideka from "./components/products/Droideka"; 
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
         <Route path="/products/droideka" element={<Droideka />} />
         <Route path="/products/crab-droid" element={<Crab />} />
         <Route path="/products/swamp-speeder" element={<Ss />} />
-        <Route path="/products/rancor" element={<Rancy />} />
+        <Route path="/products/rancor" element={<Rancy />} /> 
+        <Route path="/admin/template" element={<ProductTemplate />} /> 
       </Routes>
       <Footer />
     </div>

@@ -3,7 +3,7 @@ import img_main from '../../assets/ab_front.png'
 import img_2 from '../../assets/ab_back.png'
 import img_3 from '../../assets/original/ig-88.png'
 
-const A_b = () => {
+const Template = () => {
 
   const title = `Test`
   const addToCart = `Test`
@@ -45,4 +45,4 @@ const A_b = () => {
   )
 }
 
-export default A_b
+export default Template
