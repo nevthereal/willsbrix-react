@@ -38,6 +38,9 @@ const Info = () => {
         <h1 className="text-2xl md:text-4xl font-bold">Instagram</h1>
         <p className="md:text-xl">Follow us on Instagran: <a className="font-bold" href="https://instagram.com/willsbrixlego_official">@willsbrixlego_official</a></p>
     </div>
+      <div>
+        <p>You can find a link to the code of this website here: <a href="https://github.com/nevthereal/willsbrix-v2" className='font-bold'>Github</a></p>
+      </div>
     </div>
   )
 }
