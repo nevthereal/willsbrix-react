@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Products from "./components/Products";
 import Info from "./components/Info";
 import ProductPage from "./components/Product"
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
+        <Route path="*" element={<NotFound />} />
         <Route path="/products" element={<Products />} />
         <Route path="/info" element={<Info />} />
         <Route path="/products/assassin-black" element={<ProductPage 
