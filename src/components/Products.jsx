@@ -13,7 +13,7 @@ const Products = () => {
   return (
     <div>
         <h1 className='text-4xl md:text-6xl font-black uppercase my-16'>Products</h1>
-    <div id="products" className="flex justify-center gap-4 flex-wrap my-4 2xl:max-w-[80%] mx-auto">
+    <div id="products" className="flex justify-center gap-4 flex-wrap my-4 2xl:max-w-[90%] mx-auto">
         <Panel link={"/products/at-rt"}         image={Atrt}            title={"AT-RT Walker"}              price={"5 CHF"} />
         <Panel link={"/products/barc-speeder"}  image={Barcspeeder}     title={"BARC Speeder"}              price={"7.50 CHF"} />
         <Panel link={"/products/crab-droid"}    image={Crabdroid}       title={"Crab Droid"}                price={"3.50 CHF"} />
